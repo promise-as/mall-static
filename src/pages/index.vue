@@ -91,90 +91,91 @@
       <div class="container">
         <h2>手机</h2>
         <div class="wrapper">
-          <div class="banner-left"></div>
-          <a href="/#/product/35"><img src="/imgs/mix-alpha.jpg" alt=""></a>
-        </div>
-        <div class="list-box">
-          <div class="list">
-            <div class="item">
-              <span class="new-pro">新品</span>
-              <div class="item-img">
-                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/6f2493e6c6fe8e2485c407e5d75e3651.jpg" alt="">
-              </div>
-              <div class="item-info">
-                <h3>Redmi K20 Pro 6GB+128GB</h3>
-                <p>骁龙855，弹窗全面屏</p>
-                <p class="price">2999元</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="kill-pro">新品</div>
-              <div class="item-img">
-                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/4c87947d104ee5833913e4c520108f16.jpg" alt="">
-              </div>
-              <div class="item-info">
-                <h3>Redmi Note 7</h3>
-                <p>4800万拍照千元机</p>
-                <p class="price">1199元</p>
-              </div>
-            </div>
-            <div class="item">
-                <span></span>
-                <div class="item-img"><img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8737a33c78a94bc36afb860ab23b3939.jpg" alt=""></div>
+          <div class="banner-left">
+            <a href="/#/product/35"><img src="/imgs/mix-alpha.jpg" alt=""></a>
+          </div>
+          <div class="list-box">
+            <div class="list">
+              <div class="item">
+                <span class="new-pro">新品</span>
+                <div class="item-img">
+                  <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/6f2493e6c6fe8e2485c407e5d75e3651.jpg" alt="">
+                </div>
                 <div class="item-info">
-                  <h3>小米9 王源限量版</h3>
-                  <p>骁龙855，索尼4800万三摄</p>
-                  <p class="price">3599元</p>
+                  <h3>Redmi K20 Pro 6GB+128GB</h3>
+                  <p>骁龙855，弹窗全面屏</p>
+                  <p class="price">2999元</p>
                 </div>
               </div>
               <div class="item">
-                <span></span>
-                <div class="item-img"><img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/0ce61b71e2f81df62bd0c05aaa901d22.jpg" alt=""></div>
+                <span class="kill-pro">新品</span>
+                <div class="item-img">
+                  <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/4c87947d104ee5833913e4c520108f16.jpg" alt="">
+                </div>
                 <div class="item-info">
-                  <h3>小米MIX 3 8GB+128GB</h3>
-                  <p>DxO百分拍照手机</p>
-                  <p class="price">2599元</p>
+                  <h3>Redmi Note 7</h3>
+                  <p>4800万拍照千元机</p>
+                  <p class="price">1199元</p>
+                </div>
+              </div>
+              <div class="item">
+                  <span></span>
+                  <div class="item-img"><img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8737a33c78a94bc36afb860ab23b3939.jpg" alt=""></div>
+                  <div class="item-info">
+                    <h3>小米9 王源限量版</h3>
+                    <p>骁龙855，索尼4800万三摄</p>
+                    <p class="price">3599元</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <span></span>
+                  <div class="item-img"><img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/0ce61b71e2f81df62bd0c05aaa901d22.jpg" alt=""></div>
+                  <div class="item-info">
+                    <h3>小米MIX 3 8GB+128GB</h3>
+                    <p>DxO百分拍照手机</p>
+                    <p class="price">2599元</p>
+                  </div>
+                </div>
+            </div>
+            <div class="list">
+                <div class="item">
+                  <span></span>
+                  <div class="item-img"><img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9aab8a7fa9005ef918c9aa2d5f17c806.jpg" alt=""></div>
+                  <div class="item-info">
+                    <h3>小米CC9e</h3>
+                    <p>3200万自拍，4800万三摄</p>
+                    <p class="price">1299元</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <span></span>
+                  <div class="item-img"><img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3c1af9783bdc53ed843af5655ca92009.jpg" alt=""></div>
+                  <div class="item-info">
+                    <h3>小米CC9</h3>
+                    <p>3200万自拍，4800万三摄</p>
+                    <p class="price">1799元</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <span></span>
+                  <div class="item-img"><img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/bd25cc614a670f4d5546fe82e239ef86.jpg" alt=""></div>
+                  <div class="item-info">
+                    <h3>小米CC9 8GB+256GB 美图定制版</h3>
+                    <p>8GB+256GB，100%美图相机</p>
+                    <p class="price">2599元</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <span></span>
+                  <div class="item-img"><img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ca9b4f81af709935556bef9aa21a90e8.jpg" alt=""></div>
+                  <div class="item-info">
+                    <h3>Redmi Note 7 Pro</h3>
+                    <p>索尼4800万超清拍照</p>
+                    <p class="price">1399元</p>
+                  </div>
                 </div>
               </div>
           </div>
-          <div class="list">
-              <div class="item">
-                <span></span>
-                <div class="item-img"><img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9aab8a7fa9005ef918c9aa2d5f17c806.jpg" alt=""></div>
-                <div class="item-info">
-                  <h3>小米CC9e</h3>
-                  <p>3200万自拍，4800万三摄</p>
-                  <p class="price">1299元</p>
-                </div>
-              </div>
-              <div class="item">
-                <span></span>
-                <div class="item-img"><img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3c1af9783bdc53ed843af5655ca92009.jpg" alt=""></div>
-                <div class="item-info">
-                  <h3>小米CC9</h3>
-                  <p>3200万自拍，4800万三摄</p>
-                  <p class="price">1799元</p>
-                </div>
-              </div>
-              <div class="item">
-                <span></span>
-                <div class="item-img"><img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/bd25cc614a670f4d5546fe82e239ef86.jpg" alt=""></div>
-                <div class="item-info">
-                  <h3>小米CC9 8GB+256GB 美图定制版</h3>
-                  <p>8GB+256GB，100%美图相机</p>
-                  <p class="price">2599元</p>
-                </div>
-              </div>
-              <div class="item">
-                <span></span>
-                <div class="item-img"><img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ca9b4f81af709935556bef9aa21a90e8.jpg" alt=""></div>
-                <div class="item-info">
-                  <h3>Redmi Note 7 Pro</h3>
-                  <p>索尼4800万超清拍照</p>
-                  <p class="price">1399元</p>
-                </div>
-              </div>
-            </div>
         </div>
       </div>
     </div>
@@ -184,7 +185,6 @@
 <script>
 import ServiceBar from './../components/ServiceBar'
 import { Swiper, SwiperSlide } from 'vue-awesome-swiper'
-import 'swiper/swiper-bundle.min.css'
 
 export default {
   name: 'index',
@@ -197,10 +197,23 @@ export default {
     return {
       swiperOptions: {
         pagination: {
-          el: '.swiper-pagination'
-        }
+          el: '.swiper-pagination',
+          clickable: true
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        effect : 'cube', // 方块切换
+        loop : true, // 环路
       }
     }
+  },
+  computed: {
+    
+  },
+  mounted(){
+    
   }
 }
 </script>
@@ -360,7 +373,7 @@ export default {
               p{
                 color: $colorD;
                 line-height: 13px;
-                margin: 6px auto -13px;
+                margin: 6px auto 13px;
               }
               .price{
                 color: #f20a0a;

@@ -17,8 +17,23 @@ export default new Router({
           path: '/index',
           name: 'index',
           component: Index,
+        },
+        {
+          path: '/product/:id',
+          name: 'product',
+          component: () => import('./pages/product.vue')
         }
       ]
+    },
+    {
+      path: '/login',
+      name: 'login',
+      component: () => import('./pages/login.vue')
+    },
+    {
+      path: '/cart',
+      name: 'cart',
+      component: () => import('./pages/cart.vue')
     }
   ]
 })
