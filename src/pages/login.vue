@@ -82,10 +82,10 @@ export default {
 <style lang="scss">
 .login{
   &>.container{
-    height:113px;
+    height:98px;
     img{
-      width:auto;
-      height:100%;
+      width: 200px;
+      height: 98px;
     }
   }
   .wrapper{

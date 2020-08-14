@@ -36,7 +36,7 @@
                 </div>
               </div>
               <div class="item-total">{{item.price * item.num}}元</div>
-              <div class="item-del"></div>
+              <div class="item-del" @click="del(index)"></div>
             </li>
           </ul>
         </div>
@@ -76,14 +76,14 @@ export default {
       list: [
         {
           check: true,
-          name: "小米8 6G+64G",
+          name: "Redmi K30 至尊纪念版",
           price: "1999",
           num: 1,
         },
         {
           check: true,
-          name: "小米9 6G+64G",
-          price: "2499",
+          name: "小米10至尊纪念版",
+          price: "5299",
           num: 1,
         },
       ],
@@ -110,18 +110,29 @@ export default {
     },
     product(i) {
       this.list[i].check = !this.list[i].check;
+      for (var j = 0; j < this.list.length; j++) {
+        if (!this.list[j].check) {
+          this.allChecked = false;
+        }
+      }
     },
     // 购物车下单
     order() {
       this.$router.push("/order/confirm");
     },
+    del(i){
+      // console.log(this.list, 111)
+      this.list.splice(i, 1)
+    }
   },
   computed: {
     // 总数
     totalNum: function () {
       let sun = 0;
       for (var i = 0; i < this.list.length; i++) {
-        sun += this.list[i].num;
+        if (this.list[i].check) {
+          sun += this.list[i].num;
+        }
       }
       return sun;
     },
@@ -129,7 +140,9 @@ export default {
     totalPrice: function () {
       let price = 0;
       for (var i = 0; i < this.list.length; i++) {
-        price += this.list[i].num * this.list[i].price;
+        if (this.list[i].check) {
+          price += this.list[i].num * this.list[i].price;
+        }
       }
       return price;
     },
